@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Vector</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 02: Operaciones Basicas con un Tensor 1D: Vector</h1>
+        <h2>
+            Numero de Elementos de los Vectores:
+            <input id="txtElementos" type="number" min="1" max="10" style="width:50px" />
+            <input id="btnCalcular" type="button" value="Calcular" />
+            <input id="btnNuevo" type="button" value="Nuevo" />
+        </h2>
+        <table>
+            <tr>
+                <td style="width:20%">
+                    Tensor 1: <input id="txtElementoTensor1" type="number" style="width:50px">
+                    <input id="btnAgregarElemento1" type="button" value="+" />
+                </td>
+                <td style="width:20%">
+                    Tensor 2: <input id="txtElementoTensor2" type="number" style="width:50px">
+                    <input id="btnAgregarElemento2" type="button" value="+" />
+                </td>
+                <td style="width:20%">Suma</td>
+                <td style="width:20%">Producto</td>
+                <td style="width:20%">Prod Punto</td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="lstTensor1" size="10" style="width:100px"></select>
+                </td>
+                <td>
+                    <select id="lstTensor2" size="10" style="width:100px"></select>
+                </td>
+                <td>
+                    <select id="lstSuma" size="10" style="width:100px"></select>
+                </td>
+                <td>
+                    <select id="lstProducto" size="10" style="width:100px"></select>
+                </td>
+                <td>
+                    <select id="lstProdPunto" size="10" style="width:100px"></select>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow/tfjs@latest'></script>
+    <script src="~/Scripts/Vector.js"></script>
+</body>
+</html>
