@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Operaciones</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 01: Tipos de Tensores y Operaciones Basicas</h1>
+        <div>
+            <input id="btnEscalares" type="button" value="Escalares" />
+            <input id="btnTensores" type="button" value="Tensores" />
+            <input id="btnSumar" type="button" value="Sumar" />
+            <input id="btnMultiplicacion" type="button" value="Multiplicacion" />
+            <input id="btnProductoPunto" type="button" value="Producto Punto" />
+        </div>
+        <div id="divRpta" style="width:1000px;height:500px;background-color:white;overflow-y:auto"></div>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow/tfjs@latest'></script>
+    <script src="~/Scripts/Operaciones.js"></script>
+</body>
+</html>
