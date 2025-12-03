@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Archivos</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 08: Creacion de Tensores desde Data de un Archivo Remoto</h1>
+        <h2>Selecciona un Tipo de Archivo a Cargar como Tensor (CSV, JPG, PNG, MP3):</h2>
+        <div>
+            <input id="btnArchivoCSV" type="button" value="Archivo CSV" />
+            <input id="btnArchivoImagen" type="button" value="Archivo Imagen" />
+        </div>        
+        <div id="divPreview" style="width:700px;height:500px;overflow-y:auto;background-color:white"></div>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow/tfjs@latest'></script>
+    <script src="~/Scripts/Archivos.js"></script>
+</body>
+</html>

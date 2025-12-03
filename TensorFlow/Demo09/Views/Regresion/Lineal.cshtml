@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Lineal</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 09: Regresion Lineal para Predecir el Precio de una Casa Boston</h1>
+        <div>
+            <input id="btnObtenerData" type="button" value="Obtener Data" />
+            <input id="btnMostrarData" type="button" value="Mostrar Data" />
+            <input id="btnGraficarData" type="button" value="Graficar Data" />
+            <input id="btnNormalizarData" type="button" value="Normalizar Data" />
+            <input id="btnEntrenarModelo" type="button" value="Entrenar Modelo" />
+            <input id="btnPredecir" type="button" value="Predecir" />
+        </div>
+        <div id="divRpta" style="width:1600px;height:500px;overflow-y:auto;background-color:white"></div>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow/tfjs@latest'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow/tfjs-vis@latest'></script>
+    <script src="~/Scripts/Lineal.js"></script>
+</body>
+</html>

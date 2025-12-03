@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jhonf\\Documents\\Shifu\\TensorFlow\\TensorFlow\\Demo08\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2F192E1-C012-4FEB-BE0C-B3293CCA2D7F}|Demo08.csproj|c:\\users\\jhonf\\documents\\shifu\\tensorflow\\tensorflow\\demo08\\scripts\\archivos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C2F192E1-C012-4FEB-BE0C-B3293CCA2D7F}|Demo08.csproj|solutionrelative:scripts\\archivos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2F192E1-C012-4FEB-BE0C-B3293CCA2D7F}|Demo08.csproj|c:\\users\\jhonf\\documents\\shifu\\tensorflow\\tensorflow\\demo08\\controllers\\tensorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2F192E1-C012-4FEB-BE0C-B3293CCA2D7F}|Demo08.csproj|solutionrelative:controllers\\tensorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2F192E1-C012-4FEB-BE0C-B3293CCA2D7F}|Demo08.csproj|c:\\users\\jhonf\\documents\\shifu\\tensorflow\\tensorflow\\demo08\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2F192E1-C012-4FEB-BE0C-B3293CCA2D7F}|Demo08.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Archivos.js",
+              "DocumentMoniker": "C:\\Users\\jhonf\\Documents\\Shifu\\TensorFlow\\TensorFlow\\Demo08\\Scripts\\Archivos.js",
+              "RelativeDocumentMoniker": "Scripts\\Archivos.js",
+              "ToolTip": "C:\\Users\\jhonf\\Documents\\Shifu\\TensorFlow\\TensorFlow\\Demo08\\Scripts\\Archivos.js",
+              "RelativeToolTip": "Scripts\\Archivos.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-03T02:10:53.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TensoresController.cs",
+              "DocumentMoniker": "C:\\Users\\jhonf\\Documents\\Shifu\\TensorFlow\\TensorFlow\\Demo08\\Controllers\\TensoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TensoresController.cs",
+              "ToolTip": "C:\\Users\\jhonf\\Documents\\Shifu\\TensorFlow\\TensorFlow\\Demo08\\Controllers\\TensoresController.cs",
+              "RelativeToolTip": "Controllers\\TensoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T02:10:48.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\jhonf\\Documents\\Shifu\\TensorFlow\\TensorFlow\\Demo08\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\jhonf\\Documents\\Shifu\\TensorFlow\\TensorFlow\\Demo08\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T02:10:42.492Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
