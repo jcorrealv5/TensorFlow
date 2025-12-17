@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ClasificarDigitos</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 11: Clasificacion Categorica de Digitos MNIST - Imagenes como Sprite</h1>
+        <div>
+            <input id="btnCrearDataSet" type="button" value="Crear DataSet" />
+            <input id="btnEntrenarModelo" type="button" value="Entrenar Modelo" />
+        </div>
+        <div>
+            <canvas id="canvas" width="785" height="500"></canvas>
+            <canvas id="canvasImg" width="28" height="28"></canvas>
+        </div>
+        <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow/tfjs@latest'></script>
+        <script src="~/Scripts/ClasificarDigitos.js"></script>
+    </div>
+</body>
+</html>

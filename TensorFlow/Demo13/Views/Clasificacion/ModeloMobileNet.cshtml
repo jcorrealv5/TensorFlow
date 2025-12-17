@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ModeloMobileNet</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 13: Modelo Predefinido MobileNet para Clasificar Imagenes</h1>
+        <h2 id="hSubtitulo">
+            Arrastra los Archivos de Imagen a Clasificar a la Zona Blanca:
+        </h2>
+        <table style="width:100%">
+            <tr>
+                <td style="width:50%;vertical-align:top">
+                    <canvas id="canvas" width="800" height="600"></canvas>
+                </td>
+                <td style="width:50%;vertical-align:top">
+                    <div id="divClasificacion"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow/tfjs@latest'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow-models/mobilenet@2.1.1/dist/mobilenet.min.js'></script>
+    <script src="~/Scripts/ModeloMobileNet.js"></script>
+</body>
+</html>

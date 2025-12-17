@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ModeloMobileNet</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 14: Modelo Predefinido CocoSSD para Detectar Objetos</h1>
+        <h2>
+            Selecciona la Imagen a Detectar los Objetos:
+            <input id="txtArchivo" type="text" style="width:500px" />
+            <input id="btnSeleccionar" type="button" value="..." disabled="disabled"/>
+            <input id="btnDetectar" type="button" value="Detectar" disabled="disabled"/>
+            <input id="btnNuevo" type="button" value="Nuevo" />
+            <input id="fupImagen" type="file" style="display:none" accept="image/*" />
+        </h2>
+        <table style="width:100%">
+            <tr>
+                <td style="width:30%;vertical-align:top">
+                    <canvas id="canvas" width="500" height="500"></canvas>
+                </td>
+                <td style="width:70%;vertical-align:top">
+                    <div><span id="spnMensaje"></span></div>
+                    <div id="divDeteccion"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow/tfjs@latest'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow-models/coco-ssd'></script>
+    <script src="~/Scripts/CocoSSD.js"></script>
+</body>
+</html>
