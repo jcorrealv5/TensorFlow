@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Rostro</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 18: Detección de rostros simple usando el Modelo MediaPipe FaceDetection en una imagen</h1>
+        <table>
+            <tr>
+                <td style="width:40%">Selecciona la Imagen a Detectar Rostro:</td>
+                <td style="width:40%"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="txtArchivo" type="text" style="width:500px" />
+                    <input id="btnSeleccionar" type="button" value="..." disabled="disabled" />
+                    <input id="fupImagen" type="file" style="display:none" accept="image/*" />
+                </td>
+                <td>
+                    <input id="btnDetectarRostro" type="button" value="Detectar Rostro" disabled="disabled" />
+                    <input id="btnNuevo" type="button" value="Nuevo" />
+                    <input id="btnDescargar" type="button" value="Descargar" />
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align:top">
+                    <img id="imgPreview" width="600" height="400" />
+                </td>
+                <td style="vertical-align:top">
+                    <div><canvas id="canvas" width="600" height="400"></canvas></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow/tfjs@latest'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow-models/face-detection'></script>
+    <script src="~/Scripts/Rostro.js"></script>
+</body>
+</html>

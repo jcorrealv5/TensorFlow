@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Rostro</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 21: Detección de Marcas Faciales en Tiempo Real usando el Modelo faceLandmarksDetection</h1>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <input id="btnActivarCamara" type="button" value="Activar Camara" disabled="disabled" />
+                    <span id="spnMensaje" style="font-weight:bold"></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align:top">
+                    <video id="video" width="700" height="500"></video>
+                </td>
+                <td style="vertical-align:top">
+                    <div><canvas id="canvas" width="700" height="500"></canvas></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow/tfjs@latest'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow-models/face-landmarks-detection'></script>
+    <script src="~/Scripts/MarcasFaciales.js"></script>
+</body>
+</html>

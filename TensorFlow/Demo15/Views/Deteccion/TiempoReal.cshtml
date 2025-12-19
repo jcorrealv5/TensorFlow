@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TiempoReal</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 15: Modelo Predefinido CocoSSD para Detectar Objetos en Tiempo Real</h1>
+        <div>
+            <input id="btnActivarCamara" type="button" value="Activar Camara" style="display:none"/>
+        </div>
+        <div>
+            <div><video id="video" width="600" height="500" style="float:left"></video></div>
+            <div>
+                <span id="spnMensaje"></span>
+                <canvas id="canvas" width="600" height="500"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow/tfjs@latest'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow-models/coco-ssd'></script>
+    <script src="~/Scripts/TiempoReal.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Semantica</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 17: Modelo Predefinido DeepLab para Segmentación Semántica de una Imagen</h1>
+        <table>
+            <tr>
+                <td style="width:40%">Selecciona la Imagen a Segmentar:</td>
+                <td style="width:40%"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="txtArchivo" type="text" style="width:500px" />
+                    <input id="btnSeleccionar" type="button" value="..." disabled="disabled" />
+                    <input id="fupImagen" type="file" style="display:none" accept="image/*" />
+                </td>
+                <td>
+                    <input id="btnSegmentar" type="button" value="Segmentar" disabled="disabled" />
+                    <input id="btnNuevo" type="button" value="Nuevo" />
+                    <input id="btnDescargar" type="button" value="Descargar" />
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align:top">
+                    <img id="imgPreview" width="600" height="400"/>
+                </td>
+                <td style="vertical-align:top">
+                    <div><canvas id="canvas" width="600" height="400"></canvas></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow/tfjs@latest'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow-models/deeplab'></script>
+    <script src="~/Scripts/Semantica.js"></script>
+</body>
+</html>

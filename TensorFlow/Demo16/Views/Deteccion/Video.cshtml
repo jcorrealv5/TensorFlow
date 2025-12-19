@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Video</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 16: Modelo Predefinido CocoSSD para Buscar Objetos en un Video de Disco</h1>
+        <table>
+            <tr>
+                <td style="width:30%">Selecciona el Video a Buscar un Objeto:</td>
+                <td style="width:30%">Ingresa el Objeto (Clase/Categoria) a Buscar</td>
+                <td style="width:20%">Umbral de Precision</td>
+                <td style="width:20%"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="txtArchivo" type="text" style="width:500px" />
+                    <input id="btnSeleccionar" type="button" value="..." disabled="disabled" />
+                    <input id="fupVideo" type="file" style="display:none" accept="video/*" />
+                </td>
+                <td><input id="txtClaseBuscar" type="text" style="width:300px" /></td>
+                <td><input id="txtUmbral" type="text" style="width:100px" value="20"/></td>
+                <td>
+                    <input id="btnDetectar" type="button" value="Detectar" disabled="disabled" />
+                    <input id="btnNuevo" type="button" value="Nuevo" />
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align:top">
+                    <video id="video" width="600" height="400" style="float:left"></video>
+                </td>
+                <td style="vertical-align:top">
+                    <div><canvas id="canvas" width="600" height="400"></canvas></div>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <div><span id="divMensaje" style="font-weight:bold"></span></div>
+        <div id="divRpta" style="width:1450px;height:200px;overflow-y:auto;background-color:white"></div>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow/tfjs@latest'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@Html.Raw("@")tensorflow-models/coco-ssd'></script>
+    <script src="~/Scripts/Video.js"></script>
+</body>
+</html>
